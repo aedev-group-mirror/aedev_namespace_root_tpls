@@ -70,7 +70,7 @@ follow the steps underneath to add and register a new module as portion onto the
 9. run ``grm prepare``, then amend the commit message within the file `{COMMIT_MSG_FILE_NAME}`,
    then run ``grm commit`` and ``grm push`` to commit and upload your new portion to your personal
    remote/server repository fork, and finally run ``grm request`` to request the merge/pull into
-   the forked/upstream repository in the users group `{repo_group}` (at {repo_root}).
+   the forked/upstream repository in the users group `{REPO_GROUP}` (at {repo_root}).
 
 the registration of a new portion to the {namespace_name} namespace has to be done by a namespace maintainer.
 
@@ -107,7 +107,7 @@ portion.
 indices and tables
 ******************
 
-* `portion repositories at {REPO_CODE_DOMAIN} <{repo_root}>`__
+* `portion repositories at {REPO_DOMAIN} <{repo_root}>`__
 * :ref:`genindex`
 * :ref:`modindex`
 * ``ae`` namespace `projects <https://gitlab.com/ae-group>`__ and `documentation <https://ae.readthedocs.io>`__
