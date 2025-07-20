@@ -1,9 +1,9 @@
 # {portion_name} {project_version}
 
-[![GitLab develop](https://img.shields.io/gitlab/pipeline/{REPO_GROUP}/{project_name}/develop?logo=python)](
+[![GitLab develop](https://img.shields.io/gitlab/pipeline/{repo_group}/{project_name}/develop?logo=python)](
     {repo_url})
 [![LatestPyPIrelease](
-    https://img.shields.io/gitlab/pipeline/{REPO_GROUP}/{project_name}/release{pypi_versions[-1]}?logo=python)](
+    https://img.shields.io/gitlab/pipeline/{repo_group}/{project_name}/release{pypi_versions[-1]}?logo=python)](
     {repo_url}/-/tree/release{pypi_versions[-1]})
 [![PyPIVersions](https://img.shields.io/pypi/v/{project_name})](
     {pypi_url}/#history)
