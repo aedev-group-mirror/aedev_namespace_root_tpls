@@ -3,8 +3,8 @@
 [![GitLab develop](https://img.shields.io/gitlab/pipeline/{repo_group}/{project_name}/develop?logo=python)](
     {repo_url})
 [![LatestPyPIrelease](
-    https://img.shields.io/gitlab/pipeline/{repo_group}/{project_name}/release{pypi_versions[-1]}?logo=python)](
-    {repo_url}/-/tree/release{pypi_versions[-1]})
+    https://img.shields.io/gitlab/pipeline/{repo_group}/{project_name}/release{project_version}?logo=python)](
+    {repo_url}/-/tree/release{project_version})
 [![PyPIVersions](https://img.shields.io/pypi/v/{project_name})](
     {pypi_url}/#history)
 

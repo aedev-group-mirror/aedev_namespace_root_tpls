@@ -1,12 +1,12 @@
-<!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.aedev V0.3.25 -->
+<!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.aedev v0.3.25 -->
 <!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.tpl_namespace_root V0.3.14 -->
-# namespace_root_tpls 0.3.17
+# namespace_root_tpls 0.3.18
 
 [![GitLab develop](https://img.shields.io/gitlab/pipeline/aedev-group/aedev_namespace_root_tpls/develop?logo=python)](
     https://gitlab.com/aedev-group/aedev_namespace_root_tpls)
 [![LatestPyPIrelease](
-    https://img.shields.io/gitlab/pipeline/aedev-group/aedev_namespace_root_tpls/release0.3.16?logo=python)](
-    https://gitlab.com/aedev-group/aedev_namespace_root_tpls/-/tree/release0.3.16)
+    https://img.shields.io/gitlab/pipeline/aedev-group/aedev_namespace_root_tpls/release0.3.17?logo=python)](
+    https://gitlab.com/aedev-group/aedev_namespace_root_tpls/-/tree/release0.3.17)
 [![PyPIVersions](https://img.shields.io/pypi/v/aedev_namespace_root_tpls)](
     https://pypi.org/project/aedev-namespace-root-tpls/#history)
 
