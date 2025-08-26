@@ -69,8 +69,8 @@ follow the steps underneath to add and register a new module as portion onto the
 8. run ``grm check-integrity`` to run the linting and unit tests (if they fail go one or two steps back).
 9. run ``grm prepare``, then amend the commit message within the file `{COMMIT_MSG_FILE_NAME}`,
    then run ``grm commit`` and ``grm push`` to commit and upload your new portion to your personal
-   remote/server repository fork, and finally run ``grm request`` to request the merge/pull into
-   the forked/upstream repository in the users group `{repo_group}` (at {repo_root}).
+   forked repository onto the origin remote server, and finally run ``grm request`` to request the merge/pull into
+   the fork/upstream repository of the user/group `{repo_group}` (at {repo_root}).
 
 the registration of a new portion to the {namespace_name} namespace has to be done by a namespace maintainer.
 
