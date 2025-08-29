@@ -1,4 +1,4 @@
-# THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.project_tpls v0.3.49
+# THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.project_tpls v0.3.52
 """ setup of aedev namespace package portion namespace_root_tpls: templates and outsourced files for namespace root projects.. """
 # noinspection PyUnresolvedReferences
 import sys
@@ -17,23 +17,23 @@ setup_kwargs = {
     'description': 'aedev namespace package portion namespace_root_tpls: templates and outsourced files for namespace root projects.',
     'extras_require': {       'dev': [       'aedev_project_tpls', 'aedev_aedev', 'anybadge', 'coverage-badge', 'aedev_git_repo_manager',
                        'flake8', 'mypy', 'pylint', 'pytest', 'pytest-cov', 'pytest-django', 'typing',
-                       'types-setuptools', 'wheel', 'twine'],
+                       'types-setuptools'],
         'docs': [],
         'tests': [       'anybadge', 'coverage-badge', 'aedev_git_repo_manager', 'flake8', 'mypy', 'pylint', 'pytest',
-                         'pytest-cov', 'pytest-django', 'typing', 'types-setuptools', 'wheel', 'twine']},
+                         'pytest-cov', 'pytest-django', 'typing', 'types-setuptools']},
     'install_requires': [],
     'keywords': ['configuration', 'development', 'environment', 'productivity'],
     'license': 'GPL-3.0-or-later',
-    'long_description': ('<!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.aedev v0.3.25 -->\n'
- '<!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.tpl_namespace_root V0.3.14 -->\n'
- '# namespace_root_tpls 0.3.18\n'
+    'long_description': ('<!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.aedev v0.3.26 -->\n'
+ '<!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.namespace_root_tpls v0.3.18 -->\n'
+ '# namespace_root_tpls 0.3.19\n'
  '\n'
  '[![GitLab '
  'develop](https://img.shields.io/gitlab/pipeline/aedev-group/aedev_namespace_root_tpls/develop?logo=python)](\n'
  '    https://gitlab.com/aedev-group/aedev_namespace_root_tpls)\n'
  '[![LatestPyPIrelease](\n'
- '    https://img.shields.io/gitlab/pipeline/aedev-group/aedev_namespace_root_tpls/release0.3.17?logo=python)](\n'
- '    https://gitlab.com/aedev-group/aedev_namespace_root_tpls/-/tree/release0.3.17)\n'
+ '    https://img.shields.io/gitlab/pipeline/aedev-group/aedev_namespace_root_tpls/release0.3.19?logo=python)](\n'
+ '    https://gitlab.com/aedev-group/aedev_namespace_root_tpls/-/tree/release0.3.19)\n'
  '[![PyPIVersions](https://img.shields.io/pypi/v/aedev_namespace_root_tpls)](\n'
  '    https://pypi.org/project/aedev-namespace-root-tpls/#history)\n'
  '\n'
@@ -102,7 +102,7 @@ setup_kwargs = {
  '"aedev_namespace_root_tpls documentation").\n'),
     'long_description_content_type': 'text/markdown',
     'name': 'aedev_namespace_root_tpls',
-    'package_data': {       '': [       'templates/de_otf_de_tpl_README.md',
+    'package_data': {       '': [       'templates/de_tpl_dev_requirements.txt', 'templates/de_otf_de_tpl_README.md',
                     'templates/de_mtp_templates/de_otf_de_spt_namespace-root_de_otf_de_tpl_README.md',
                     'templates/de_sfp_docs/de_otf_de_tpl_index.rst',
                     'templates/de_sfp_docs/features_and_examples.rst']},
@@ -113,9 +113,8 @@ setup_kwargs = {
         'Repository': 'https://gitlab.com/aedev-group/aedev_namespace_root_tpls',
         'Source': 'https://aedev.readthedocs.io/en/latest/_modules/aedev/namespace_root_tpls.html'},
     'python_requires': '>=3.9',
-    'setup_requires': [],
     'url': 'https://gitlab.com/aedev-group/aedev_namespace_root_tpls',
-    'version': '0.3.18',
+    'version': '0.3.19',
     'zip_safe': False,
 }
 
