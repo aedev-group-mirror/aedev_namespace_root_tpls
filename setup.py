@@ -26,14 +26,14 @@ setup_kwargs = {
     'license': 'GPL-3.0-or-later',
     'long_description': ('<!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.aedev v0.3.26 -->\n'
  '<!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.namespace_root_tpls v0.3.18 -->\n'
- '# namespace_root_tpls 0.3.20\n'
+ '# namespace_root_tpls 0.3.21\n'
  '\n'
  '[![GitLab '
  'develop](https://img.shields.io/gitlab/pipeline/aedev-group/aedev_namespace_root_tpls/develop?logo=python)](\n'
  '    https://gitlab.com/aedev-group/aedev_namespace_root_tpls)\n'
  '[![LatestPyPIrelease](\n'
- '    https://img.shields.io/gitlab/pipeline/aedev-group/aedev_namespace_root_tpls/release0.3.20?logo=python)](\n'
- '    https://gitlab.com/aedev-group/aedev_namespace_root_tpls/-/tree/release0.3.20)\n'
+ '    https://img.shields.io/gitlab/pipeline/aedev-group/aedev_namespace_root_tpls/release0.3.21?logo=python)](\n'
+ '    https://gitlab.com/aedev-group/aedev_namespace_root_tpls/-/tree/release0.3.21)\n'
  '[![PyPIVersions](https://img.shields.io/pypi/v/aedev_namespace_root_tpls)](\n'
  '    https://pypi.org/project/aedev-namespace-root-tpls/#history)\n'
  '\n'
@@ -114,7 +114,7 @@ setup_kwargs = {
         'Source': 'https://aedev.readthedocs.io/en/latest/_modules/aedev/namespace_root_tpls.html'},
     'python_requires': '>=3.9',
     'url': 'https://gitlab.com/aedev-group/aedev_namespace_root_tpls',
-    'version': '0.3.20',
+    'version': '0.3.21',
     'zip_safe': False,
 }
 
