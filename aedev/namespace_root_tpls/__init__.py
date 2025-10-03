@@ -1,3 +1,3 @@
 """ templates and outsourced files for namespace root projects. """
 
-__version__ = '0.3.20'
+__version__ = '0.3.21'

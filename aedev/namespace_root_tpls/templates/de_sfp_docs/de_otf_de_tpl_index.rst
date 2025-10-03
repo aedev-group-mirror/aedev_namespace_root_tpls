@@ -1,8 +1,8 @@
 namespace portions documentation
 ################################
 
-welcome to the documentation of the portions (app/service modules and sub-packages) of this freely extendable
-{namespace_name} namespace (:pep:`420`).
+welcome to the documentation of the portions (modules and packages) of this freely extendable
+**{namespace_name}** namespace (:pep:`420`).
 
 
 .. include:: features_and_examples.rst
@@ -12,9 +12,10 @@ code maintenance guidelines
 ***************************
 
 
-portions code requirements
-==========================
+portions code features
+======================
 
+    * open source
     * pure python
     * fully typed (:pep:`526`)
     * fully :ref:`documented <{namespace_name}-portions>`
@@ -40,39 +41,41 @@ a :pep:`420` namespace splits the codebase of a library or framework into multip
 portions (of the namespace).
 
 .. hint::
-    the `aedev` namespace is providing `the grm tool to create and maintain any namespace and its portions
-    <https://aedev.readthedocs.io/en/latest/man/git_repo_manager.html>`__.
+    the `aedev` namespace is providing `the project-manager (pjm) tool to create and maintain namespace root
+    and its portion projects <https://aedev.readthedocs.io/en/latest/man/project_manager.html>`__.
 
-the id of a new namespace consists of letters only and has to be available on PYPI. the group-name name gets by default
-generated from the namespace name plus the suffix ``'-group'``, so best choose an id that results in a group name that
-is available on your repository server.
+the id of a new namespace has to be available on `PyPI <pypi.org>`__.
+
+the owner name of your namespace (group-name) has to be available on your git repository server. it defaults
+to the namespace name plus the suffix ``'-group'``.
 
 
 register a new namespace portion
 ================================
 
-follow the steps underneath to add and register a new module as portion onto the `{namespace_name}` namespace:
+follow the steps underneath to add and register a new module portion onto the **{namespace_name}** namespace:
 
 1. open a console window and change the current directory to the parent directory of your projects root folders.
 2. choose a not-existing/unique name for the new portion (referred as `<portion-name>` in the next steps).
-3. run ``grm --namespace={namespace_name} --project=<portion_name> new-module`` to register the portion
-   name within the namespace, to create a new project folder `{namespace_name}_<portion-name>` (providing
-   initial project files created from templates) and to get a pre-configured git repository (with the remote
-   already set and the initial files unstaged, to be extended, staged and finally committed).
+3. run ``pjm --namespace_name={namespace_name} --project_name={namespace_name}_<portion_name> new_module``
+   to create a new project folder `{namespace_name}_<portion-name>`,
+   and to register the portion name within the namespace.
 4. run ``cd {namespace_name}_<portion-name>`` to change the current to the working tree root
-   of the new portion project.
-5. run `pyenv local venv_name <https://pypi.org/project/pyenv/>`__ (or any other similar tool) to
+   of the new portion project. within the project folder you will find the
+   initial project files created from templates and a pre-configured git repository (with the remote
+   already set and the initial files unstaged, to be extended, staged and finally committed).
+5. optionally run `pyenv local venv_name <https://pypi.org/project/pyenv/>`__ (or any other similar tool) to
    create/prepare a local virtual environment.
 6. fans of TDD are then coding unit tests in the prepared test module `test_{namespace_name}_<portion-name>{PY_EXT}`,
    situated within the `{TESTS_FOLDER}` sub-folder of your new code project folder.
 7. extend the file <portion_name>{PY_EXT} situated in the `{namespace_name}` sub-folder to implement the new portion.
-8. run ``grm check-integrity`` to run the linting and unit tests (if they fail go one or two steps back).
-9. run ``grm prepare``, then amend the commit message within the file `{COMMIT_MSG_FILE_NAME}`,
-   then run ``grm commit`` and ``grm push`` to commit and upload your new portion to your personal
-   forked repository onto the origin remote server, and finally run ``grm request`` to request the merge/pull into
-   the fork/upstream repository of the user/group `{repo_group}` (at {repo_root}).
+8. run ``pjm check-integrity`` to run the linting and unit tests (if they fail go one or two steps back).
+9. run ``pjm prepare``, then amend the commit message within the file `{COMMIT_MSG_FILE_NAME}` and run ``pjm commit``.
 
-the registration of a new portion to the {namespace_name} namespace has to be done by a namespace maintainer.
+the registration of a new portion to the **{namespace_name}** namespace has to be done by a namespace maintainer.
+if you have a maintainer role in the namespace owner group `{repo_group}` (at {repo_root}) then you can push and
+merge the new portion directly (running ``pjm push`` and ``pjm request``). otherwise contact one of the maintainers
+to add it for you.
 
 registered portions will automatically be included into the `{namespace_name} namespace documentation`, available at
 `ReadTheDocs <{docs_root}>`__.
@@ -84,13 +87,13 @@ registered portions will automatically be included into the `{namespace_name} na
 registered namespace package portions
 *************************************
 
-the following list contains all registered portions of the {namespace_name} namespace, plus additional modules of each
-portion.
+the following list contains all registered portions of the **{namespace_name}** namespace, plus additional modules
+of each portion.
 
 
 .. hint::
     a not on the ordering: portions with no dependencies are at the begin of the following list.
-    the portions that are depending on other portions of the {namespace_name} namespace
+    the portions that are depending on other portions of the **{namespace_name}** namespace
     are listed more to the end.
 
 
