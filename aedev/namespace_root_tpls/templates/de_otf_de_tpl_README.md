@@ -13,7 +13,7 @@ bundle and ease the maintenance, for example to:
 * merge docstrings of all portions into a single combined and cross-linked documentation.
 * compile and publish documentation via Sphinx onto [ReadTheDocs]({docs_root} "{namespace_name} on RTD").
 * bulk refactor multiple portions of this namespace simultaneously using the
-  [git repository manager tool (__grm__)](https://gitlab.com/aedev-group/aedev_git_repo_manager).
+  [git repository manager tool (__pjm__)](https://gitlab.com/aedev-group/aedev_project_manager).
 
 to enable the update and deployment of outsourced files generated from the templates provided by
 this root package, add this root package to the development requirements file ({REQ_DEV_FILE_NAME})
@@ -23,14 +23,14 @@ this project.
 and because this {project_type} package is only needed for development tasks, it will never need to
 be added to the installation requirements file ({REQ_FILE_NAME}) of a project.
 
-please check the [git repository manager manual](
-https://aedev.readthedocs.io/en/latest/man/git_repo_manager.html "git_repo_manager manual")
-for more detailed information on the provided actions of the __grm__ tool.
+please check the [project manager manual](
+https://aedev.readthedocs.io/en/latest/man/project_manager.html "project_manager manual")
+for more detailed information on the provided actions of the __pjm__ tool.
 
 
 ## installation
 
-no installation is needed to use this project for your portion projects, because the __grm__ tool is
+no installation is needed to use this project for your portion projects, because the __pjm__ tool is
 automatically fetching this and the other template projects from {repo_root} (and
 in the specified version).
 
