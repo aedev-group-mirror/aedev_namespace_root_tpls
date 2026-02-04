@@ -9,13 +9,13 @@ this package is the root project of the {namespace_name} namespace and their por
 and sub-packages of the namespace {namespace_name}). it provides helpers and templates in order to
 bundle and ease the maintenance, for example to:
 
-* update and deploy common outsourced files, optionally generated from templates.
+* update and deploy managed files (created and renewed from templates).
 * merge docstrings of all portions into a single combined and cross-linked documentation.
 * compile and publish documentation via Sphinx onto [ReadTheDocs]({docs_root} "{namespace_name} on RTD").
 * bulk refactor multiple portions of this namespace simultaneously using the
   [git repository manager tool (__pjm__)](https://gitlab.com/aedev-group/aedev_project_manager).
 
-to enable the update and deployment of outsourced files generated from the templates provided by
+to enable the update and deployment of managed files generated from the templates provided by
 this root package, add this root package to the development requirements file ({REQ_DEV_FILE_NAME})
 of each portion project of this namespace. in this entry you can optionally specify the version of
 this project.

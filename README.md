@@ -1,16 +1,16 @@
 <!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.aedev v0.3.28 -->
 <!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.namespace_root_tpls v0.3.21 -->
-# namespace_root_tpls 0.3.22
+# namespace_root_tpls 0.3.23
 
 [![GitLab develop](https://img.shields.io/gitlab/pipeline/aedev-group/aedev_namespace_root_tpls/develop?logo=python)](
     https://gitlab.com/aedev-group/aedev_namespace_root_tpls)
 [![LatestPyPIrelease](
-    https://img.shields.io/gitlab/pipeline/aedev-group/aedev_namespace_root_tpls/release0.3.22?logo=python)](
-    https://gitlab.com/aedev-group/aedev_namespace_root_tpls/-/tree/release0.3.22)
+    https://img.shields.io/gitlab/pipeline/aedev-group/aedev_namespace_root_tpls/release0.3.23?logo=python)](
+    https://gitlab.com/aedev-group/aedev_namespace_root_tpls/-/tree/release0.3.23)
 [![PyPIVersions](https://img.shields.io/pypi/v/aedev_namespace_root_tpls)](
     https://pypi.org/project/aedev-namespace-root-tpls/#history)
 
->aedev namespace package portion namespace_root_tpls: templates and outsourced files for namespace root projects..
+>aedev namespace package portion namespace_root_tpls: templates (managed files) for namespace root projects..
 
 [![Coverage](https://aedev-group.gitlab.io/aedev_namespace_root_tpls/coverage.svg)](
     https://aedev-group.gitlab.io/aedev_namespace_root_tpls/coverage/index.html)
