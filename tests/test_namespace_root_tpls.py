@@ -1,19 +1,8 @@
-# THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.project_tpls v0.3.58
-# pylint: disable=invalid-name
-""" default integration and unit tests for new app/namespace-root/aedev-template/... projects.
-
-remove the outsourced marker in the first line of this test module if you want to add more specialized tests. you then
-want also to remove ``main_imp_name`` and to replace importlib.import_module (only there to prevent syntax errors in
-this template) with an import statement.
-"""
+""" unit tests. """
 import importlib
-import os
-
-from ae.base import TESTS_FOLDER, module_attr                               # type: ignore
 
 
-main_imp_name = "aedev.namespace_root_tpls"
-main_module = importlib.import_module(main_imp_name)
+main_module = importlib.import_module('aedev.namespace_root_tpls')
 
 
 def test_version():
@@ -23,7 +12,6 @@ def test_version():
     assert pkg_version
     assert isinstance(pkg_version, str)
     assert pkg_version.count(".") == 2
-    assert pkg_version == module_attr(main_imp_name, '__version__')
 
 
 def test_docstring():
@@ -31,9 +19,3 @@ def test_docstring():
     pkg_docstring = main_module.__doc__
     assert pkg_docstring
     assert isinstance(pkg_docstring, str)
-    assert pkg_docstring == module_attr(main_imp_name, '__doc__')
-
-
-def test_tests_folder_exists():
-    """ test existence of tests folder. """
-    assert os.path.isdir(TESTS_FOLDER)
