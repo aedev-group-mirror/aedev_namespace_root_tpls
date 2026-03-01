@@ -1,3 +1,3 @@
 """ templates (managed files) for namespace root projects. """
 
-__version__ = '0.3.25'
+__version__ = '0.3.26'
