@@ -65,7 +65,7 @@ setup_kwargs = {
         '': [
             'templates/de_tpl_dev_requirements.txt',
             'templates/de_otf_de_tpl_README.md',
-            'templates/de_mtp_templates/de_spt_namespace-root_de_otf_de_tpl_README.md',
+            'templates/de_mtp_templates/de_otf__z_de_spt_namespace-root_de_otf_de_tpl_README.md',
             'templates/de_sfp_docs/de_otf_de_tpl_index.rst',
             'templates/de_sfp_docs/features_and_examples.rst',
         ],
@@ -84,7 +84,7 @@ setup_kwargs = {
     },
     'python_requires': '>=3.12',
     'url': 'https://gitlab.com/aedev-group/aedev_namespace_root_tpls',
-    'version': '0.3.25',
+    'version': '0.3.26',
     'zip_safe': False,
 }
 
