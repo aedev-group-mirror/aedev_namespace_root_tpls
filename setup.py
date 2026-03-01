@@ -1,4 +1,4 @@
-# THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.project_tpls v0.3.75
+# THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.project_tpls v0.3.76
 """ setup of aedev namespace package portion namespace_root_tpls: templates (managed files) for namespace root projects.. """
 import sys
 # noinspection PyUnresolvedReferences
@@ -28,7 +28,6 @@ setup_kwargs = {
             'aedev_project_tpls',
             'aedev_aedev',
             'anybadge',
-            'coverage-badge',
             'flake8',
             'mypy',
             'pylint',
@@ -41,7 +40,6 @@ setup_kwargs = {
         'docs': [],
         'tests': [
             'anybadge',
-            'coverage-badge',
             'flake8',
             'mypy',
             'pylint',
@@ -86,7 +84,7 @@ setup_kwargs = {
     },
     'python_requires': '>=3.12',
     'url': 'https://gitlab.com/aedev-group/aedev_namespace_root_tpls',
-    'version': '0.3.24',
+    'version': '0.3.25',
     'zip_safe': False,
 }
 
