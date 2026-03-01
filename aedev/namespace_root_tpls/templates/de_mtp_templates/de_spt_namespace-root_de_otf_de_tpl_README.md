@@ -32,12 +32,12 @@
 [![PyPIDownloads](https://img.shields.io/pypi/dm/{project_name})](
     {pypi_url}/#files)
 
+{TEMPLATE_PLACEHOLDER_ID_PREFIX}{TEMPLATE_INCLUDE_FILE_PLACEHOLDER_ID}{TEMPLATE_PLACEHOLDER_ID_SUFFIX}
+    README_intro.md
+{TEMPLATE_PLACEHOLDER_ARGS_SUFFIX}
 
 ## installation
 
-{TEMPLATE_PLACEHOLDER_ID_PREFIX}{TEMPLATE_INCLUDE_FILE_PLACEHOLDER_ID}{TEMPLATE_PLACEHOLDER_ID_SUFFIX}
-    de_icl_README_pre_install.md
-{TEMPLATE_PLACEHOLDER_ARGS_SUFFIX}
 execute the following command to install the
 {import_name} {project_type}
 in the currently active virtual environment:
@@ -73,3 +73,7 @@ information on the features and usage of this portion are available at
 [ReadTheDocs](
 {docs_url}
 "{project_name} documentation").
+
+{TEMPLATE_PLACEHOLDER_ID_PREFIX}{TEMPLATE_INCLUDE_FILE_PLACEHOLDER_ID}{TEMPLATE_PLACEHOLDER_ID_SUFFIX}
+    README_outro.md
+{TEMPLATE_PLACEHOLDER_ARGS_SUFFIX}
