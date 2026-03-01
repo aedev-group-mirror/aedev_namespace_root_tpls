@@ -84,7 +84,7 @@ setup_kwargs = {
     },
     'python_requires': '>=3.12',
     'url': 'https://gitlab.com/aedev-group/aedev_namespace_root_tpls',
-    'version': '0.3.26',
+    'version': '0.3.27',
     'zip_safe': False,
 }
 

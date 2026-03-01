@@ -69,7 +69,7 @@ more detailed explanations on how to contribute to this project
 
 ## namespace portion documentation
 
-information on the features and usage of this portion are available at
+the documentation of the source code of this portion is available at
 [ReadTheDocs](
 {docs_url}
 "{project_name} documentation").

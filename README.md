@@ -1,12 +1,12 @@
-<!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.aedev v0.3.30 -->
-<!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.namespace_root_tpls v0.3.21 -->
-# namespace_root_tpls 0.3.26
+<!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.aedev v0.3.31 -->
+<!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.namespace_root_tpls v0.3.26 -->
+# namespace_root_tpls 0.3.27
 
 [![GitLab develop](https://img.shields.io/gitlab/pipeline/aedev-group/aedev_namespace_root_tpls/develop?logo=python)](
     https://gitlab.com/aedev-group/aedev_namespace_root_tpls)
 [![LatestPyPIrelease](
-    https://img.shields.io/gitlab/pipeline/aedev-group/aedev_namespace_root_tpls/release0.3.26?logo=python)](
-    https://gitlab.com/aedev-group/aedev_namespace_root_tpls/-/tree/release0.3.26)
+    https://img.shields.io/gitlab/pipeline/aedev-group/aedev_namespace_root_tpls/release0.3.27?logo=python)](
+    https://gitlab.com/aedev-group/aedev_namespace_root_tpls/-/tree/release0.3.27)
 [![PyPIVersions](https://img.shields.io/pypi/v/aedev_namespace_root_tpls)](
     https://pypi.org/project/aedev-namespace-root-tpls/#history)
 
@@ -35,8 +35,8 @@
     https://pypi.org/project/aedev-namespace-root-tpls/#files)
 
 
-## installation
 
+## installation
 
 execute the following command to install the
 aedev.namespace_root_tpls package
@@ -73,3 +73,5 @@ information on the features and usage of this portion are available at
 [ReadTheDocs](
 https://aedev.readthedocs.io/en/latest/_autosummary/aedev.namespace_root_tpls.html
 "aedev_namespace_root_tpls documentation").
+
+
