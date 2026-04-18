@@ -66,9 +66,6 @@ the dependencies required for a specific task,  replace
     * `tests`: for contributing to the unit test suite
     * `docs`: for maintaining and building documentation
 
-to contribute to specific areas, you can narrow the
-installation by replacing the `dev` flag with `tests` or `docs`.
-
 more detailed explanations on how to contribute to this project
 [are available here](
 {repo_url}/-/blob/develop/CONTRIBUTING.rst)
