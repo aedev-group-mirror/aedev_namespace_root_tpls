@@ -1,4 +1,4 @@
-# THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.project_tpls v0.3.77
+# THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.project_tpls vlocal
 """ setup of aedev namespace package portion namespace_root_tpls: templates (managed files) for namespace root projects.. """
 import sys
 # noinspection PyUnresolvedReferences
@@ -61,18 +61,18 @@ setup_kwargs = {
     'name': 'aedev_namespace_root_tpls',
     'package_data': {
         '': [
-            'templates/de_tpl_dev_requirements.txt',
-            'templates/de_otf_de_tpl_README.md',
-            'templates/de_mtp_templates/de_otf__z_de_spt_namespace-root_de_otf_de_tpl_README.md',
-            'templates/de_sfp_docs/de_otf_de_tpl_index.rst',
-            'templates/de_sfp_docs/features_and_examples.rst',
+            'templates/fSt-dev_requirements.txt',
+            'templates/fSt-PutMar-README.md',
+            'templates/MovPkg-templates/PutMar-_z_SkpTyp-namespace-root_fSt-PutMar-README.md',
+            'templates/SkpPor-docs/fSt-PutMar-index.rst',
+            'templates/SkpPor-docs/features_and_examples.rst',
         ],
     },
     'packages': [
         'aedev.namespace_root_tpls',
         'aedev.namespace_root_tpls.templates',
-        'aedev.namespace_root_tpls.templates.de_mtp_templates',
-        'aedev.namespace_root_tpls.templates.de_sfp_docs',
+        'aedev.namespace_root_tpls.templates.MovPkg-templates',
+        'aedev.namespace_root_tpls.templates.SkpPor-docs',
     ],
     'project_urls': {
         'Bug Tracker': 'https://gitlab.com/aedev-group/aedev_namespace_root_tpls/-/issues',
@@ -82,7 +82,7 @@ setup_kwargs = {
     },
     'python_requires': '>=3.12',
     'url': 'https://gitlab.com/aedev-group/aedev_namespace_root_tpls',
-    'version': '0.3.30',
+    'version': '0.3.31',
     'zip_safe': False,
 }
 
