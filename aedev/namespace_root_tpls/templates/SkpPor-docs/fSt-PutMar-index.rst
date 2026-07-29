@@ -8,12 +8,12 @@ welcome to the documentation of the portions (modules and packages) of this free
 .. include:: features_and_examples.rst
 
 
-code maintenance guidelines
-***************************
+code and maintenance guidelines
+*******************************
 
 
-portions code features
-======================
+portions code guidelines
+========================
 
     * open source
     * pure python
@@ -113,6 +113,7 @@ of each portion.
 .. autosummary::
     :toctree: _autosummary
     :nosignatures:
+    :exclude-members: get_txt, get_txt_
 
     {portions_import_names}
 

@@ -1,14 +1,14 @@
-<!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.aedev vlocal -->
+<!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.aedev v0.3.33 -->
 <!-- THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.namespace_root_tpls vlocal -->
-# namespace_root_tpls 0.3.31
+# namespace_root_tpls 0.3.32
 
 [![GitLab develop](https://img.shields.io/gitlab/pipeline/aedev-group/aedev_namespace_root_tpls/develop?logo=python)](
     https://gitlab.com/aedev-group/aedev_namespace_root_tpls)
 [![LatestPyPIrelease](
-    https://img.shields.io/gitlab/pipeline/aedev-group/aedev_namespace_root_tpls/release0.3.31?logo=python)](
-    https://gitlab.com/aedev-group/aedev_namespace_root_tpls/-/tree/release0.3.31)
+    https://img.shields.io/gitlab/pipeline/aedev-group/aedev_namespace_root_tpls/release0.3.32?logo=python)](
+    https://gitlab.com/aedev-group/aedev_namespace_root_tpls/-/tree/release0.3.32)
 [![PyPIVersions](https://img.shields.io/pypi/v/aedev_namespace_root_tpls)](
-    https://pypi.org/project/aedev-namespace_root_tpls/#history)
+    https://pypi.org/project/aedev-namespace-root-tpls/#history)
 
 >aedev namespace package portion namespace_root_tpls: templates (managed files) for namespace root projects..
 
@@ -26,13 +26,13 @@
 [![PyPIWheel](https://img.shields.io/pypi/wheel/aedev_namespace_root_tpls)](
     https://gitlab.com/aedev-group/aedev_namespace_root_tpls/)
 [![PyPIFormat](https://img.shields.io/pypi/format/aedev_namespace_root_tpls)](
-    https://pypi.org/project/aedev-namespace_root_tpls/)
+    https://pypi.org/project/aedev-namespace-root-tpls/)
 [![PyPILicense](https://img.shields.io/pypi/l/aedev_namespace_root_tpls)](
     https://gitlab.com/aedev-group/aedev_namespace_root_tpls/-/blob/develop/LICENSE.md)
 [![PyPIStatus](https://img.shields.io/pypi/status/aedev_namespace_root_tpls)](
-    https://libraries.io/pypi/aedev-namespace_root_tpls)
+    https://libraries.io/pypi/aedev-namespace-root-tpls)
 [![PyPIDownloads](https://img.shields.io/pypi/dm/aedev_namespace_root_tpls)](
-    https://pypi.org/project/aedev-namespace_root_tpls/#files)
+    https://pypi.org/project/aedev-namespace-root-tpls/#files)
 
 
 
@@ -43,7 +43,7 @@ aedev.namespace_root_tpls package
 in the currently active virtual environment:
  
 ```shell script
-pip install aedev-namespace_root_tpls
+pip install aedev-namespace-root-tpls
 ```
 
 if you want to contribute to this portion then first fork
