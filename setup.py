@@ -1,15 +1,14 @@
-# THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.project_tpls vlocal
+# THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.project_tpls v0.3.90
 """ setup of aedev namespace package portion namespace_root_tpls: templates (managed files) for namespace root projects.. """
-import sys
-# noinspection PyUnresolvedReferences
 import pathlib
-# noinspection PyUnresolvedReferences
+import sys
+from typing import Any
 import setuptools
 
 
 print("SetUp " + __name__ + ": " + sys.executable + str(sys.argv) + f" {sys.path=}")
 
-setup_kwargs = {
+setup_kwargs: dict[str, Any] = {
     'author': 'AndiEcker',
     'author_email': 'aecker2@gmail.com',
     'classifiers': [
@@ -64,8 +63,8 @@ setup_kwargs = {
             'templates/fSt-dev_requirements.txt',
             'templates/fSt-PutMar-README.md',
             'templates/MovPkg-templates/PutMar-_z_SkpTyp-namespace-root_fSt-PutMar-README.md',
-            'templates/SkpPor-docs/fSt-PutMar-index.rst',
             'templates/SkpPor-docs/features_and_examples.rst',
+            'templates/SkpPor-docs/fSt-PutMar-index.rst',
         ],
     },
     'packages': [
@@ -82,10 +81,10 @@ setup_kwargs = {
     },
     'python_requires': '>=3.12',
     'url': 'https://gitlab.com/aedev-group/aedev_namespace_root_tpls',
-    'version': '0.3.31',
+    'version': '0.3.32',
     'zip_safe': False,
 }
 
 if __name__ == "__main__":
     setuptools.setup(**setup_kwargs)
-    pass
+    ...
