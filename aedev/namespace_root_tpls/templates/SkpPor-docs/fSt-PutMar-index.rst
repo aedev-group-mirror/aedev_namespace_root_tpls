@@ -104,7 +104,7 @@ of each portion.
 
 
 .. hint::
-    a not on the ordering: portions with no dependencies are at the
+    a note on the ordering: portions with no dependencies are at the
     begin of the following list. the portions that are depending on
     other portions of the **{namespace_name}** namespace
     are listed more to the end.
@@ -113,7 +113,6 @@ of each portion.
 .. autosummary::
     :toctree: _autosummary
     :nosignatures:
-    :exclude-members: get_txt, get_txt_
 
     {portions_import_names}
 

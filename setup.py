@@ -1,4 +1,4 @@
-# THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.project_tpls v0.3.90
+# THIS FILE IS EXCLUSIVELY MAINTAINED by the project aedev.project_tpls v0.3.91
 """ setup of aedev namespace package portion namespace_root_tpls: templates (managed files) for namespace root projects.. """
 import pathlib
 import sys
@@ -81,7 +81,7 @@ setup_kwargs: dict[str, Any] = {
     },
     'python_requires': '>=3.12',
     'url': 'https://gitlab.com/aedev-group/aedev_namespace_root_tpls',
-    'version': '0.3.32',
+    'version': '0.3.33',
     'zip_safe': False,
 }
 
