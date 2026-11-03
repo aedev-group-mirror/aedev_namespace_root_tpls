@@ -1,3 +1,4 @@
+**********************
 features and use-cases
 **********************
 
@@ -6,6 +7,7 @@ the portions of this namespace are simplifying your Python application or servic
     * ...
 
 
+********
 examples
 ********
 
